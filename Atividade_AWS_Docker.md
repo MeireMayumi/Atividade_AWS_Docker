@@ -101,7 +101,7 @@
 2) A imagem utilizada foi a "Amazon Linux 2", tipo de instância "t2.micro";
 3) Em `configurações de rede`, selecionar a VPC criada, utilizar uma sub-rede _privada_ e configurar o grupo de segurança para permitir o tráfego SSH somente do IP privado do Bastion host e as portas 80 e 443 (HHTP e HTTPS, respectivamente) para o grupo de segurança do Load Balancer;
 4) Utilizar o armazenamento padrão;
-5) Em `Detalhes avançados`, selecionar o arquivo [user_data.sh](https://github.com/MeireMayumi/aws_docker/blob/main/user_data.sh) no campo `Dados do usuário`, para configurar a instalação do Docker, montagem do EFS e execução do docker-compose para o deploy do Wordpress utilizando o RDS, durante a inicialização da instância.
+5) Em `Detalhes avançados`, selecionar o arquivo [user_data.sh](https://github.com/MeireMayumi/Atividade_AWS_Docker/blob/main/user_data.sh) no campo `Dados do usuário`, para configurar a instalação do Docker, montagem do EFS e execução do docker-compose para o deploy do Wordpress utilizando o RDS, durante a inicialização da instância.
 6) Clicar em `Executar instância`.
 </details>
 
@@ -141,11 +141,9 @@
 - O projeto mostrou como diferentes serviços da AWS podem ser integrados para fornecer um ambiente completo para hospedar aplicativos como o WordPress usando contêineres;
 - Foi possível criar uma infraestrutura AWS para hospedar o Wordpress, utilizando o Docker, serviço de RDS para banco de dados e EFS para armazenamento e compartilhamento de arquivos;
 - Foram utilizadas instâncias em sub-redes privadas, permitindo acesso SSH somente ao IP privado do bastion host e acesso HTTP e HTTPS somente ao load balancer e um bastion host permitindo acesso SSH somente ao meu IP;
--  Foi utilizado um arquivo "user_data.sh" para configurar a instalação do Docker, a montagem do EFS e execução do docker-compose ao iniciar a instância;
+-  Foi utilizado um arquivo "[user_data.sh](https://github.com/MeireMayumi/Atividade_AWS_Docker/blob/main/user_data.sh)" para configurar a instalação do Docker, a montagem do EFS e execução do docker-compose ao iniciar a instância;
 - A utilização de Auto Scaling e Load Balancer garantem alta disponibilidade e escalabilidade do serviço;
-- O acesso ao Wordpress foi realizado através do DNS do load balancer, conforme figura abaixo:
-
-![image](https://github.com/MeireMayumi/aws_docker/assets/167933389/15c791e5-fe18-4cfb-93ef-2d05b5191cc8)
+- O acesso ao Wordpress foi realizado através do DNS do load balancer.
 
 
 
