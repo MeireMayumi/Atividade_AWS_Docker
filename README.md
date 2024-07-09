@@ -2,8 +2,7 @@
 
 **Arquitetura do projeto:**
 
-![Arquitetura_projeto](https://github.com/MeireMayumi/aws_docker/assets/167933389/4775b87c-8b40-40e7-ad3b-c0e99836d5a0)
-
+![Arquitetura_projeto](https://github.com/MeireMayumi/aws_docker/assets/167933389/cd6d36ed-cbdc-43d7-ab23-4c347bb109e0)
 
 
 
@@ -11,7 +10,7 @@
 <summary>Descrição da atividade</summary>
 
 1. Instalação e configuração do DOCKER ou CONTAINERD no host EC2;
-- Ponto adicional para o trabalho: utilizar a instalação via script de Start Instance [user_data.sh](https://github.com/MeireMayumi/aws_docker/blob/main/user_data.sh)
+- Ponto adicional para o trabalho: utilizar a instalação via script de Start Instance [user_data.sh](https://github.com/MeireMayumi/Atividade_AWS_Docker/blob/main/user_data.sh)
 2. Efetuar Deploy de uma aplicação Wordpress com: container de aplicação RDS database Mysql
 3. Configuração da utilização do serviço EFS AWS para estáticos do container de aplicação Wordpress
 4. Configuração do serviço de Load Balancer AWS para a aplicação Wordpress
@@ -29,7 +28,7 @@
   
 </details>
 
- - ###  [Atividade AWS - Docker](https://github.com/MeireMayumi/aws_docker/blob/main/Atividade_AWS_Docker.md)
+ - ###  [Atividade AWS - Docker](https://github.com/MeireMayumi/Atividade_AWS_Docker/blob/main/Atividade_AWS_Docker.md)
 
 
 
