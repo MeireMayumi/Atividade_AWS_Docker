@@ -11,15 +11,6 @@
 
 </details>
 
-## - Serviços EFS
-#### Acessar o serviço de EFS no console da AWS:
-<details>
-<summary>Criação do EFS</summary>
-
-1) Clicar em `Criar sistema de arquivos`;
-2) Nomear e atribuir à VPC criada anteriormente;
-3) Clicar em `Criar sistema de arquivos`.
-</details>
 
 ## - Serviços VPC
 #### Acessar o serviço de VPC no console da AWS:
@@ -71,6 +62,16 @@
 
 1) Selecionar a tabela de rotas privada, na parte de `Rotas` clicar em `Editar rotas`;
 2) Clicar em "Adicionar rota", com destino "0.0.0.0/0" e selecionar como "Alvo" o gateway NAT criado anteriormente e salvar.
+</details>
+
+## - Serviços EFS
+#### Acessar o serviço de EFS no console da AWS:
+<details>
+<summary>Criação do EFS</summary>
+
+1) Clicar em `Criar sistema de arquivos`;
+2) Nomear e atribuir à VPC criada anteriormente;
+3) Clicar em `Criar sistema de arquivos`.
 </details>
 
 ## - Serviços EC2
