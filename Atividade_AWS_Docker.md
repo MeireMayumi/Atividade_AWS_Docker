@@ -132,9 +132,10 @@
 2) Nomear e selecionar o modelo de execução criado anteriormente;
 3) Em `Rede` selecionar a VPC criada e selecionar as 2 sub-redes privadas;
 4) Selecionar o balanceador de carga que foi criado e deixar as outras configurações padrões;
-5) Preencher a capacidade desejada com a quantidade de instâncias que deseja que fique executando, configure o limite de ajuste de escala, preenchendo a quantidade mínima e máxima de instâncias a serem escaladas e selecione a política de dimensionamento para ajuste de escala automática que deseja;
-6) Se desejar adicione notificações e etiquetas;
-7) Clicar em `Criar grupo do Auto Scaling`.
+5) Selecionar a opção `Escolha entre seus grupos de destino de balanceador de carga` e adicione o grupo de destino criado anteriormente; 
+6) Preencher a capacidade desejada com a quantidade de instâncias que deseja que fique executando, configure o limite de ajuste de escala, preenchendo a quantidade mínima e máxima de instâncias a serem escaladas e selecione a política de dimensionamento para ajuste de escala automática que deseja;
+7) Se desejar adicione notificações e etiquetas;
+8) Clicar em `Criar grupo do Auto Scaling`.
 </details>
 
 ## - Conclusão
