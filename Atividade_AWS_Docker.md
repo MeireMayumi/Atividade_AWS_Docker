@@ -6,7 +6,7 @@
 <summary>Criação do RDS</summary>
   
 1) Clicar em `Criar banco de dados`;
-2) Em `Opções de mecanismo` selecionar "MySQL", em `Opções de modelos` selecionar o nível gratuito, configurar a instância do banco de dados preenchendo o nome, o usuário principal e senha, em conectividade configurar o grupo de segurança para permitir tráfego na porta 3306 do grupo de segurança da instância privada;
+2) Em `Opções de mecanismo` selecionar "MySQL", em `Opções de modelos` selecionar o nível gratuito, configurar a instância do banco de dados preenchendo o nome, o usuário principal e senha, em `grupo de segurança da VPC` dentro de `conectividade` configurar o grupo de segurança para permitir tráfego na porta 3306 do grupo de segurança da instância privada;
 3) Clicar em `Criar banco de dados`.
 
 </details>
