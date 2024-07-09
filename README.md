@@ -2,7 +2,7 @@
 
 **Arquitetura do projeto:**
 
-![Arquitetura_projeto](https://github.com/MeireMayumi/aws_docker/assets/167933389/cd6d36ed-cbdc-43d7-ab23-4c347bb109e0)
+![Arquitetura_projeto](Arquitetura_projeto.png)
 
 
 
