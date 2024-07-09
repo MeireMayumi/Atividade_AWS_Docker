@@ -12,7 +12,7 @@ sudo chmod +x /usr/bin/docker-compose
 pip install docker-compose
 sudo yum -y install amazon-efs-utils
 sudo mkdir /mnt/efs
-sudo mount -t efs fs-04018cce06b98d009:/ /mnt/efs
+sudo mount -t efs fs-04018cce06b98d***:/ /mnt/efs
 mkdir -p /docker
 sudo cat <<EOL > /docker/docker-compose.yml
 version: '3.4'
@@ -28,7 +28,7 @@ services:
       WORDPRESS_DB_HOST: wordpress-2.c9qu8ieoimo7.us-east-1.rds.amazonaws.com
       WORDPRESS_DB_NAME: wordpress
       WORDPRESS_DB_USER: admin
-      WORDPRESS_DB_PASSWORD: admin123
+      WORDPRESS_DB_PASSWORD: ********
 EOL
 chown -R ec2-user:ec2-user /docker
 docker-compose -f /docker/docker-compose.yml up -d
